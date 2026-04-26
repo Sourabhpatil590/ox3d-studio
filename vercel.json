@@ -1,6 +1,5 @@
 {
-  "version": 2,
-  "framework": "tanstack-start",
-  "buildCommand": "npm run build",
-  "outputDirectory": ".output"
+  "buildCommand": "vite build",
+  "outputDirectory": "dist/client",
+  "framework": null
 }
