@@ -4,9 +4,9 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "dev": "vinxi dev",
-    "build": "vinxi build",
-    "preview": "vinxi start",
+    "dev": "vite dev --port 3000",
+    "build": "vite build",
+    "preview": "node .output/server/index.mjs",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
@@ -42,11 +42,11 @@
     "@tailwindcss/vite": "^4.2.1",
     "@tanstack/react-query": "^5.83.0",
     "@tanstack/react-router": "^1.168.0",
-    "@tanstack/react-start": "^1.167.0",
     "@tanstack/react-router-devtools": "^1.166.0",
-    "@tanstack/server-functions-plugin": "^1.142.1",
+    "@tanstack/react-start": "^1.167.0",
     "@tanstack/router-generator": "^1.166.0",
     "@tanstack/router-plugin": "^1.167.0",
+    "@tanstack/server-functions-plugin": "^1.142.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
@@ -65,8 +65,8 @@
     "tailwindcss": "^4.2.1",
     "tw-animate-css": "^1.3.4",
     "vaul": "^1.1.2",
-    "vinxi": "0.5.11",
-    "vite-tsconfig-paths": "^5.0.0",
+    "vite": "^6.3.0",
+    "vite-tsconfig-paths": "^6.1.1",
     "zod": "^3.24.2"
   },
   "devDependencies": {
