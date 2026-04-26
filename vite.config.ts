@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     tsconfigPaths(),
     tanstackStart({
-      target: 'static',  // add this
+      target: 'vercel',
     }),
     react(),
   ],
