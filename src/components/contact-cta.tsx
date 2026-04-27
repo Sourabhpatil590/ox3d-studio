@@ -24,7 +24,8 @@ export function ContactCTA() {
               className="group inline-flex items-center justify-between rounded-lg bg-primary px-5 py-4 text-primary-foreground transition hover:brightness-110"
             >
               <span className="inline-flex items-center gap-2 font-medium">
-                <Mail size={16} /> contact@0x3d.in
+                <Mail size={16} />
+                <span>contact@0x3d.in</span>
               </span>
               <ArrowUpRight size={16} className="transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
@@ -35,7 +36,8 @@ export function ContactCTA() {
               className="group inline-flex items-center justify-between rounded-lg border border-white/15 px-5 py-4 text-ink-foreground transition hover:border-primary"
             >
               <span className="inline-flex items-center gap-2 font-medium">
-                <MessageCircle size={16} /> WhatsApp us
+                <MessageCircle size={16} />
+                <span>WhatsApp us</span>
               </span>
               <ArrowUpRight size={16} className="transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
