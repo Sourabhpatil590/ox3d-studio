@@ -50,6 +50,12 @@ export const Route = createRootRoute({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "OX3D — Precision 3D Prototyping" },
+      { name: "description", content: "OX3D Studio offers custom 3D modeling and prototyping services for architectural and product design." },
+      { property: "og:description", content: "OX3D Studio offers custom 3D modeling and prototyping services for architectural and product design." },
+      { name: "twitter:description", content: "OX3D Studio offers custom 3D modeling and prototyping services for architectural and product design." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f68578ea-a879-4cd3-a1a3-09fbeee0fcc5/id-preview-4ca198e2--a54e27ed-77aa-44fa-9c39-bdfddb28f8c2.lovable.app-1777235091774.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f68578ea-a879-4cd3-a1a3-09fbeee0fcc5/id-preview-4ca198e2--a54e27ed-77aa-44fa-9c39-bdfddb28f8c2.lovable.app-1777235091774.png" },
     ],
     links: [
       {
